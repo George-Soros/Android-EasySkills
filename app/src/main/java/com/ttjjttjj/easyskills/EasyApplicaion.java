@@ -22,7 +22,6 @@ public class EasyApplicaion extends Application {
         super.onCreate();
 
         String processName = getProcessName();
-        Log.d(TAG, "processName="+processName);
         if(!TextUtils.isEmpty(processName)
                 && processName.equals(this.getPackageName())){
             Log.d(TAG, "开始应用的初始化事件...");
