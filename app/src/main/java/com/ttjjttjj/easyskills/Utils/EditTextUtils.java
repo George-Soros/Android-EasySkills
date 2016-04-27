@@ -1,4 +1,4 @@
-package com.ttjjttjj.easyskills;
+package com.ttjjttjj.easyskills.Utils;
 
 import android.content.Context;
 import android.view.View;

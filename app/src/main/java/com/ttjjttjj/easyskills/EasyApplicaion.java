@@ -13,8 +13,8 @@ import java.io.FileReader;
  *
  * @author ttjjttjj
  */
-public class EasyApplicaion extends Application {
 
+    public class EasyApplicaion extends Application {
     private static final String TAG = "EasyApplicaion";
 
     @Override
@@ -25,9 +25,6 @@ public class EasyApplicaion extends Application {
         if(!TextUtils.isEmpty(processName)
                 && processName.equals(this.getPackageName())){
             Log.d(TAG, "开始应用的初始化事件...");
-
-
-
 
         }
 

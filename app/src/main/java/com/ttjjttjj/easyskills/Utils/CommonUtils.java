@@ -1,4 +1,4 @@
-package com.ttjjttjj.easyskills;
+package com.ttjjttjj.easyskills.Utils;
 
 import java.io.UnsupportedEncodingException;
 import java.security.MessageDigest;
