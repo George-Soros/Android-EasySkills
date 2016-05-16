@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">easyskills</string>
     <string name="action_settings">Settings</string>
+
+    <string name="client_update_version">更新版本: %1$s</string>
+
+
+
+
 </resources>

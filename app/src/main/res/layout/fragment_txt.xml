@@ -20,5 +20,19 @@
         android:text="点击后，不再可以点击，并变灰"
         />
 
+    <TextView
+        android:id="@+id/str_test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/client_update_version"/>
+
+    <TextView
+        android:id="@+id/test_filesize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        />
+
 
 </LinearLayout>

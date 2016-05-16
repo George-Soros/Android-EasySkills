@@ -3,6 +3,8 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 23
     buildToolsVersion "23.0.3"
+    //6.0以后不支持该包，现在添加，主要为了httpclient等
+    useLibrary 'org.apache.http.legacy'
 
     defaultConfig {
         applicationId "com.ttjjttjj.easyskills"

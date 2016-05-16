@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.app.Fragment;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.text.format.Formatter;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -28,6 +29,10 @@ public class ContentFragment extends Fragment {
     EditText mEditShow;
     @Bind(R.id.txt_sepcial)
     TextView mTextSpecial;
+    @Bind(R.id.str_test)
+    TextView mStrTest;
+    @Bind(R.id.test_filesize)
+    TextView mTestFileSize;
 
     private static final String TAG = "ContentFragment";
 
@@ -60,6 +65,8 @@ public class ContentFragment extends Fragment {
 
         initEvent();
 
+        initData();
+
         return view;
     }
 
@@ -76,6 +83,17 @@ public class ContentFragment extends Fragment {
                 TextViewUtils.setNotClick(mTextSpecial);
             }
         });
+    }
+
+    private void initData(){
+
+        /** 测试 "%!$s" 的使用*/
+        mStrTest.setText(String.format(
+                getString(R.string.client_update_version), "1.0"));
+
+        /**计算filesize*/
+        mTestFileSize.setText("文件大小:"+
+                Formatter.formatShortFileSize(mActivity, 3456789));
     }
 
     @Override
