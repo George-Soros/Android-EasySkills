@@ -1,7 +1,7 @@
 # Android-EasySkills
 集合了android开发中的小技巧，和遇到的坑，各种问题的分析等，代码在其中，以及详细的注释，easy copy！
 
-1:  application oncreate 执行一次
+*1:  application oncreate 执行一次*
 
 坑点:  当manifest中有设置了多个进程是，例如： process 这样的
 
