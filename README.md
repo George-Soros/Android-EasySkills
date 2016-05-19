@@ -64,6 +64,11 @@ Formatter.formatShortFileSize(context, 1024000)
 
 得到：0.98MB
 
+11： dp，sp 转px的方法
+
+Displayutil.class
+
+
 待更新...
 
 
