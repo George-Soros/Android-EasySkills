@@ -64,10 +64,19 @@ Formatter.formatShortFileSize(context, 1024000)
 
 得到：0.98MB
 
-11： dp，sp 转px的方法
+**11： dp，sp 转px的方法**
 
 Displayutil.class
 
+**12:  xmlns:tools="http://schemas.android.com/tools"**
+
+tools 可以告诉android studio ,哪些属性在运行的时候是被忽略的，只是在设计布局xml中是有效的。比如我们要让android:text属性只在布局预览中有效可以这样, tools 更多的功能参考下面文章
+
+ http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2015/0309/2567.html
+
+**13: 基类 BaseFragment的使用**
+
+查看BaseFragment.class 类
 
 待更新...
 
